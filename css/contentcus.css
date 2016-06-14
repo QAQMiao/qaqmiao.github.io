@@ -1,0 +1,14 @@
+#content{
+    color:blue;
+    width:400px;
+    height:1200px;
+    z-index: 999;
+    /*margin-right:160px;*/
+    position: fixed;
+    /*transition:0.5s*/
+}
+
+.show-content {
+    top:0;
+    left:0;
+}
