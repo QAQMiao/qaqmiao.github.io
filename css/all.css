@@ -3477,6 +3477,10 @@ body {
 	background: hsla(0,0%,100%,.25);
 	border-radius: 40px;
 	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 .main::before {
 	position: absolute;
@@ -3491,6 +3495,7 @@ body {
 	-webkit-filter: blur(20px);
 			filter: blur(20px);
 }
+
 .entry .gist {
   background: #eee;
   border: 1px solid color-border;
